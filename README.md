@@ -1,4 +1,4 @@
-# getkulala.net
+# kulala-web
 
 This is the source code for
 the [kulala website](https://kulala.app).
