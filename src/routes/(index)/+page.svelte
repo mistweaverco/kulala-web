@@ -46,7 +46,7 @@
 <a id="apps" aria-label="Apps section anchor"></a>
 <div class="hero bg-base-200 min-h-screen">
 	<div class="hero-content text-center grid">
-		<div class="bg-base-300 border border-base-300 mt-6 mb-6 border-rounded rounded-lg max-w-3xl min-w-3xl p-10">
+		<div class="bg-base-300 border border-base-300 mt-6 mb-6 border-rounded rounded-lg max-w-3xl p-10">
 			<h1 class="text-5xl font-bold">Apps 📦</h1>
 			<p class="py-6">Kulala apps (in no particular order):</p>
 			<ul>
@@ -88,7 +88,7 @@
 <a id="usage" aria-label="Usage section anchor"></a>
 <div class="hero bg-base-300 min-h-screen">
 	<div class="hero-content text-center grid">
-		<div class="bg-base-200 border border-base-300 mt-6 mb-6 border-rounded rounded-lg max-w-3xl min-w-3xl p-10">
+		<div class="bg-base-200 border border-base-300 mt-6 mb-6 border-rounded rounded-lg max-w-3xl p-10">
 			<h1 class="text-5xl font-bold mb-5">Usage 🧑‍💻</h1>
 			<div class="badge badge-outline badge-info">
 				<a href="/usage">Usage overview</a>
