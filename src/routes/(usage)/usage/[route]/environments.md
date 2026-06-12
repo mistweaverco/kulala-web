@@ -26,11 +26,12 @@ Define named environments (`dev`, `staging`, `prod`, …) and Kulala extensions:
 
 ```json path=http-client.env.json
 {
-	"$schema": "https://getkulala.net/http-client.env.schema.json",
+	"$schema": "https://kulala.app/http-client.env.schema.json",
 	"$kulalaShared": {
 		"$kulalaDefaultHeaders": {
 			"X-Kulala-Shared-Default-Header": "kulala-family"
 		},
+		"$kulalaDefaultCurlOptions": ["--insecure", "--max-time 0.01"],
 		"API_URL": "https://echo.kulala.app"
 	},
 	"default": {
@@ -46,6 +47,7 @@ Define named environments (`dev`, `staging`, `prod`, …) and Kulala extensions:
 		"$kulalaDefaultHeaders": {
 			"X-Kulala-Default-Header-in-Prod": "kulala-family"
 		},
+		"$kulalaDefaultCurlOptions": ["--no-insecure", "--max-time 1"],
 		"env_name": "prod"
 	}
 }
