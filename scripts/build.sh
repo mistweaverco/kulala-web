@@ -22,6 +22,6 @@ for i in "${!JSON_SCHEMAS[@]}"; do
 	fi
 done
 
-bun install --frozen-lockfile
+pnpm install --frozen-lockfile
 
-bun run build
+pnpm run build
